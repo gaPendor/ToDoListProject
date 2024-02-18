@@ -10,6 +10,7 @@ const [todoList,setToDoList]=useState([])
 const handleChange = (e)=>{
 
  setInputText(e.target.value)
+ console.log("ggggggggggggggggggggggggg")
 
 }
 console.log(">>>:",inputText)
